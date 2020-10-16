@@ -1,0 +1,108 @@
+.BackList{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    margin:10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 12rem;
+    box-shadow: 6px 8px  4px #b1b6b1;
+}
+
+.Whole{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin:8px 0;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+}
+
+.borderTitle{
+    /* visibility: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    border-radius: 100px 100px 0 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Onvan{
+    width: 90%;
+    color: white;
+}
+
+
+@media (min-width:1500px){
+    .BackList{
+        width: 70%;
+        margin-top: 16rem;
+    }
+    .Onvan{
+        width: 70%;
+    }
+    .borderTitle{
+ 
+        visibility: visible;
+        height: 30%;
+        
+    }
+}
+
+
+@media (min-width:1000px){
+    .BackList{
+        width: 90%;
+        height: 55vh;
+        flex-flow: row;
+        margin-top: 20rem;
+    }
+    .Onvan{
+        width: 90%;
+    }
+    .borderTitle{
+        visibility: visible;
+        height: 30%;
+    }
+ 
+}
+
+@media (min-width:400px){
+    .BackList{
+        margin-top: 14rem;
+    }
+}
+
+@media (min-width:500px){
+    .BackList{
+        margin-top: 16rem;
+    }
+}
+
+@media (min-width:650px){
+    .BackList{
+        margin-top: 18rem;
+    }
+}
+@media (min-width:750px){
+    .BackList{
+        margin-top: 22rem;
+    }
+}
+
+@media (min-width:850px){
+    .BackList{
+        margin-top: 24rem;
+    }
+}

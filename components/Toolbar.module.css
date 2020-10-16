@@ -1,0 +1,35 @@
+.List{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: black;
+    width: 100%;
+    z-index: 50;
+}
+
+.List li{
+    float: left;
+    text-decoration: none;
+    padding: 16px 2vw;
+    cursor: pointer;
+}
+
+.List a{
+    padding: 8px;
+    color:white
+}
+
+
+@media (max-width:1000px){
+    .List{
+        text-align: center;
+        overflow: hidden;
+    }
+    .List li{
+        float: none;
+        display: inline-block;
+    }
+}
